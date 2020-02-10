@@ -251,15 +251,10 @@
     <ul class="list-inline">
       <li>
         &copy;
-        2015-2020
+        2020
         27rabbit
       </li>
       <li>
-        
-          Powered by
-        
-        
-        <a href="https://hexo.io" target="_blank">Hexo</a> Theme <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
         
       </li>
     </ul>
@@ -315,14 +310,6 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="http://shenyu-vip.lofter.com" target="_blank" rel="noopener">摄影</a>
-    </li>
-    
-    <li class="nav-item">
       <a class="nav-item-link" href="/2019/about">关于我</a>
     </li>
     
@@ -356,7 +343,7 @@
 <!-- #reward -->
 <div id="reward">
   <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
+  <p class="reward-p"><i class="ri-cup-line"></i>请兔子和企鹅喝杯咖啡吧~</p>
   <div class="reward-box">
     
     <div class="reward-item">
@@ -397,7 +384,7 @@
 <script>
   try {
     var typed = new Typed("#subtitle", {
-    strings: ['面朝大海，春暖花开','愿你一生努力，一生被爱','想要的都拥有，得不到的都释怀'],
+    strings: ['喜欢企鹅，是一辈子的事','兔子和企鹅','被子太轻 压不住想你的心'],
     startDelay: 0,
     typeSpeed: 200,
     loop: true,
@@ -438,7 +425,7 @@
 
 <script>
   var ayerConfig = {
-    mathjax: false
+    mathjax: true
   }
 </script>
 
@@ -558,6 +545,25 @@
 </script>
 
 
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
 <script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
