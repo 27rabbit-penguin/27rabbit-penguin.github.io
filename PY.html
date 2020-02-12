@@ -3,7 +3,7 @@
 
 <head>
   
-  <title>27rabbit</title>
+  <title>links - 27rabbit</title>
   <meta charset="UTF-8">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -12,16 +12,20 @@
 
   <link rel="shortcut icon" href="/favicon.ico" type="image/png" />
   <meta property="og:type" content="website">
-<meta property="og:title" content="27rabbit">
-<meta property="og:url" content="http://27rabbit.xyz/index.html">
+<meta property="og:title" content="links">
+<meta property="og:url" content="http://27rabbit.xyz/PY.html">
 <meta property="og:site_name" content="27rabbit">
+<meta property="og:image" content="https://www.chainwon.com/static/logo.png">
+<meta property="article:published_time" content="2020-02-12T04:48:00.000Z">
+<meta property="article:modified_time" content="2020-02-12T04:48:23.361Z">
 <meta property="article:author" content="27rabbit">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.chainwon.com/static/logo.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@0.4.3/dist/css/mdui.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.15.8/styles/atom-one-dark.css">
   
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
-  <link rel="stylesheet" href="/css/style.css?v=1581484181176">
+  <link rel="stylesheet" href="/css/style.css?v=1581484181135">
 
    
     <style>
@@ -133,36 +137,89 @@
   </div>
   <div id="nexmoe-content">
     <div class="nexmoe-primary">
-        <section class="nexmoe-posts">
-    
-    <div class="nexmoe-post">
-        <a href="/2020/02/08/about-me/">
-            
-                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
-                    <img data-src="https://cdn.jsdelivr.net/gh/nexmoe/nexmoe.github.io@latest/images/cover/5c3aec85a4343.jpg" data-sizes="auto" alt="关于我" class="lazyload">
-                    <h1>关于我</h1>
-                </div>
-            
-        </a>
-        <div class="nexmoe-post-meta">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2020年02月08日</a>
-            <a><i class="nexmoefont icon-areachart"></i>19 字</a>
-            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
-            
-            
-                <a class="nexmoefont icon-tag-fill -link" href="/tags/%E9%9A%8F%E7%AC%94/" rel="tag">随笔</a>
-            
-        </div>
-        <article>
-            
-                <a id="more"></a>
-<h1 id="我"><a href="#我" class="headerlink" title="我"></a>我</h1><p>我，27rabbit，是一只喜欢企鹅，编程，<s>英语</s>，游戏的兔子。<br></p>
+        <style>
+  article > *:first-child {
+    margin-top: 0!important;
+  }
+  article ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -5px;
+  }
+  article ul li {
+    transition: all .03s;
+    width: calc(12.5% - 10px);
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    font-size: 0;
+    overflow: hidden;
+  }
+  article ul li > a::after {
+    font-size: 13px;
+    color: #606266;
+    -webkit-transition: none;
+    transition: none;
+    content: attr(title);
+    display: block;
+    position: relative;
+    width: 100%;
+    border: none;
+    padding: 3px 10px 5px 10px;
+    margin-top: -2px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  article ul li img {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    display: block;
+  }
+  article ul li img.lazyload {
+    padding-bottom: 100%;
+    opacity: 0;
+  }
+  article ul li img.lazyloaded {
+    padding-bottom: 0;
+    opacity: 1;
+  }
+  @media screen and (max-width: 768px) {
+    article ul li {
+      width: calc(33.3333333333% - 10px);
+    }
+}
+</style>
 
-            
-        </article>
-    </div>
-    
+<div class="nexmoe-post">
+  <article class="nexmoe-py">
+    <ul>
+<li><a href="https://www.chainwon.com/" target="_blank" rel="noopener" title="轻惋导航"><img data-sizes="auto" data-src="https://www.chainwon.com/static/logo.png" alt="轻惋导航" class="lazyload"></a></li>
+</ul>
+
+  </article>
+  <section class="nexmoe-comment">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.5.0/dist/gitalk.min.css">
+<div id="gitalk"></div>
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.5.0/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+    var gitalk = new Gitalk({
+        clientID: '80b2453b6d5f37ad6225',
+        clientSecret: '43e99fa852795c9a7b3eb924b2558c64b84bbdeb',
+        id: window.location.pathname,
+        repo: 'nexmoe.github.io',
+        owner: 'nexmoe',
+        admin: 'nexmoe'
+    })
+    gitalk.render('gitalk')
+</script>
 </section>
+</div>
 
     </div>
   </div>
@@ -171,7 +228,7 @@
 <script>hljs.initHighlightingOnLoad();</script>
 <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.1.0/lazysizes.min.js"></script>
 
-<script src="/js/app.js?v=1581484181182"></script>
+<script src="/js/app.js?v=1581484181145"></script>
 
 
     <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
